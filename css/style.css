@@ -1,0 +1,48 @@
+/*Header*/
+.logo{
+  height: 4rem;
+  padding-top: .7rem;
+  padding-left: 1.5rem;
+}
+
+nav ul{
+  margin-right: 2rem;
+}
+li a{
+  font-size: uppercase;
+}
+/*footer*/
+footer a:visited{
+  color: #312468;
+}
+
+/*page maison*/
+.paragraphe{
+  z-index: 1;
+}
+
+
+/* page d'accueil*/
+.slider{
+  margin-top: 4rem;
+}
+
+/*page formulaire*/
+.contact{
+  margin-top: 4rem;
+}
+.description p{
+  font-weight: lighter;
+}
+
+/*page mention legale*/
+.mention{
+  padding-left: 2rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .parallax-container {
+    height: auto;
+    margin-top: 20px;
+  }
+}

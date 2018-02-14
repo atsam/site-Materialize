@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maison d'Hôte</title>
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="../css/style.css">
+      <!--website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <main>
+      <nav class="#4e342e brown darken-3">
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo"><img class="logo"src="../image/HI.png"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">Menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down ">
+            <li><a href="maison.html">Maison</a></li>
+            <li><a href="region.html">Region</a></li>
+            <li><a href="formulaire.html">Formulaire</a></li>
+            <li><a href="#!">About</a></li>
+          </ul>
+          <ul id="mobile-demo" class="side-nav #4e342e brown darken-3">
+            <li><a class="white-text" href="maison.html">Maison</a></li>
+            <li><a class="white-text" href="region.html">Region</a></li>
+            <li><a class="white-text" href="formulaire.html">Formulaire</a></li>
+            <li><a class="white-text" href="#!">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row Formulaire ">
+        <form class="col s8 offset-s2 col l6 offset-l2 col m6  ">
+          <div class="row">
+            <div class="input-field col s6">
+              <input  id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telephone</label>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              This is an inline input field:
+            <div class="input-field inline">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </div>
+      </form>
+      <form action="#" class="col s8 offset-s2 col l6 offset-l2 col m6 ">
+
+        <p>
+          <input type="checkbox" id="indeterminate-checkbox" />
+          <label for="indeterminate-checkbox">Fumeur</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test7" checked="test7"  />
+          <label for="test7">Parking</label>
+        </p>
+        <p>
+          <input type="checkbox" id="test8" disabled="disabled" />
+          <label for="test8">Animal</label>
+        </p>
+      </form>
+
+        <input type="text" class="datepicker col s8 offset-s2 col l6 offset-l2 col m6" >
+
+        <button class="btn waves-effect waves-light col s4 offset-s2 col l6 offset-l2 col m6" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+
+    </div>
+
+
+
+    </main>
+    <footer class="page-footer #4e342e brown darken-3">
+      <div class="container">
+        <div class="row">
+            <div class="col l6 s12 col m6 offset-m0">
+              <h5 class="white-text">A propos</h5>
+                <p class="grey-text text-lighten-4"></p>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Formulaire</a></li>
+                </ul>
+            </div>
+            <div class="col l4 offset-l2 s12 col m6 offset-m0">
+              <h5 class="white-text">Event</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Formulaire</a></li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+             © 2014 Copyright Text | <a href="mention.html">Mention légales</a>
+          </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="../js/formulaire.js"></script>
+     <script type="text/javascript" src="../js/materialize.min.js"></script>
+  </body>
+</html>
